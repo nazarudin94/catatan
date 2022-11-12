@@ -1,5 +1,5 @@
-fungsi use efect untuk melakukan fetching data pada sisi client
- 
+#fungsi use efect untuk melakukan fetching data pada sisi client
+ https://nextjs.org/docs/basic-features/data-fetching/client-side
 const [data, setData] = useState(null)
  useEffect(() => {
     setLoading(true)
@@ -12,7 +12,8 @@ const [data, setData] = useState(null)
   }, [])
   
   
-  fungsi getServerSidePropsgetServerSideProps untuk melakukan fetching data pada sisi server
+#fungsi getServerSidePropsgetServerSideProps untuk melakukan fetching data pada sisi server
+https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props
   export async function getServerSideProps(context) {
   return {
     props: {}, // will be passed to the page component as props
