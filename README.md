@@ -1,6 +1,6 @@
 # catatan next js
 # fungsi use efect untuk melakukan fetching data pada sisi client <br>
- https://nextjs.org/docs/basic-features/data-fetching/client-side
+ https://nextjs.org/docs/basic-features/data-fetching/client-side <br>
 const [data, setData] = useState(null)
  useEffect(() => {
     setLoading(true)
