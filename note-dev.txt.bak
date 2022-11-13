@@ -19,6 +19,11 @@ https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props
     props: {}, // will be passed to the page component as props
   }
 }
+<<<<<<< HEAD
+  efewf
+=======
   
+  tes cobaaa
   
+>>>>>>> df4f276c33b4b4f3d94a2995784d2868646df40e
   
