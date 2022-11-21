@@ -11,3 +11,7 @@ const [data, setData] = useState(null)
         setLoading(false)
       })
   }, [])
+
+
+# tutorial docker ubuntu
+https://www.youtube.com/watch?v=Vplj9b0L_1Y
