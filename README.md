@@ -15,3 +15,5 @@ const [data, setData] = useState(null)
 
 # tutorial docker ubuntu
 https://www.youtube.com/watch?v=Vplj9b0L_1Y
+ ## install nodejs ubuntu
+ https://www.youtube.com/watch?v=3hzShQSrIy8
