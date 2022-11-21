@@ -17,3 +17,6 @@ const [data, setData] = useState(null)
 https://www.youtube.com/watch?v=Vplj9b0L_1Y
  ## install nodejs ubuntu
  https://www.youtube.com/watch?v=3hzShQSrIy8
+
+## react + docker
+https://www.youtube.com/watch?v=O3SvhpnSZWY
