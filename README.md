@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=Vplj9b0L_1Y
  https://www.youtube.com/watch?v=3hzShQSrIy8
 
 ## react + docker
-https://www.youtube.com/watch?v=O3SvhpnSZWY
+https://www.youtube.com/watch?v=3xDAU5cvi5E
 
 ## postgree
 https://www.cherryservers.com/blog/how-to-install-and-setup-postgresql-server-on-ubuntu-20-04
