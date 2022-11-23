@@ -1,4 +1,4 @@
-# catatan next js
+# catatan Ulak Ulik
 # fungsi use efect untuk melakukan fetching data pada sisi client <br>
  https://nextjs.org/docs/basic-features/data-fetching/client-side <br>
 const [data, setData] = useState(null)
@@ -11,6 +11,9 @@ const [data, setData] = useState(null)
         setLoading(false)
       })
   }, [])
+  
+  ## DATA TABLE 
+  `https://gridjs.io/docs/examples/search?mibextid=t3LuGO`
 
 
 # tutorial docker ubuntu
