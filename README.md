@@ -21,15 +21,15 @@ https://www.youtube.com/watch?v=Vplj9b0L_1Y
 ## react + docker
 https://www.youtube.com/watch?v=3xDAU5cvi5E <br>
 
-#### build image.\
+#### build image.
  `docker build -t react-image`. \
-#### cek image.\
+#### cek image.
 `docker imgae -ls` \
-#### run container.\
+#### run container.
 `docker run -e CHOKIDAR_USEPOLLING=true -v $(pwd)/src:/app/src -d -p 3000:3000 --name react-app react-image`
-#### remove container.\
+#### remove container.
 `docker rm react-app -f` \
-#### cek container yang berjalan\
+#### cek container yang berjalan
 `docker ps`
 
 ## postgree
