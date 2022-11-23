@@ -12,8 +12,8 @@ const [data, setData] = useState(null)
       })
   }, [])
   
-  ## DATA TABLE 
-  `https://gridjs.io/docs/examples/search?mibextid=t3LuGO`
+  ## DATA TABLE NEXT JS
+  ### `https://gridjs.io/docs/examples/search?mibextid=t3LuGO`
 
 
 # tutorial docker ubuntu
