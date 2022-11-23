@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=Vplj9b0L_1Y
 
 ## react + docker
 https://www.youtube.com/watch?v=3xDAU5cvi5E
-build image .\
+build image.\
 ### `docker build -t react-image`.
 cek image
 docker imgae -ls
