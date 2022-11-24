@@ -12,6 +12,9 @@ const [data, setData] = useState(null)
       })
   }, [])
   
+  ## Vpn ubuntu
+  `sudo apt-get install openconnect network-manager-openconnect network-manager-openconnect-gnome`
+  
   ## DATA TABLE NEXT JS
   https://gridjs.io/docs/examples/search?mibextid=t3LuGO
 ## Remove Dpkg
