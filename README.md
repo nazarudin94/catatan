@@ -14,7 +14,8 @@ const [data, setData] = useState(null)
   
   ## DATA TABLE NEXT JS
   https://gridjs.io/docs/examples/search?mibextid=t3LuGO
-
+## Remove Dpkg
+`sudo apt-get remove randompackage`
 
 # tutorial docker ubuntu
 https://www.youtube.com/watch?v=Vplj9b0L_1Y
