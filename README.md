@@ -11,7 +11,8 @@ const [data, setData] = useState(null)
         setLoading(false)
       })
   }, [])
-  
+  ## How install dbeaver di ubuntu
+  https://www.how2shout.com/linux/3-ways-to-install-dbeaver-ubuntu-22-04-lts-jammy-linux/
   ## Vpn ubuntu
   `sudo apt-get install openconnect network-manager-openconnect network-manager-openconnect-gnome`
   
