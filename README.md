@@ -42,3 +42,47 @@ https://www.youtube.com/watch?v=3xDAU5cvi5E <br>
 
 ## postgree
 https://www.cherryservers.com/blog/how-to-install-and-setup-postgresql-server-on-ubuntu-20-04
+
+## migrate fk
+`exports.up = function (knex) {
+    return knex.schema.createTable('_ubis', (table) => {
+      table.increments();
+      table.string('name');
+      table.integer('flag');
+      table.timestamps(true, true);
+    });
+  };
+  
+  exports.down = function (knex) {
+    return knex.schema.dropTable('_ubis');
+  };`
+
+
+
+  
+  ## fk dari table di atas
+  exports.up = function (knex) {
+    return knex.schema.createTable('_sub_ubis', (table) => {
+      table.increments();
+      table.integer('ubis_id');
+      table.string('name');
+      table.integer('flag');
+      table.integer('status');
+      table.string('updated_by');
+      table.timestamps(true, true);
+   
+      table.foreign('ubis_id')
+        .withKeyName('ubis_fk')
+        .references('id')
+        .inTable('_ubis')
+        .onUpdate('CASCADE')
+        .onDelete('SET NULL');
+  
+     
+    });
+  };
+  
+  exports.down = function (knex) {
+    return knex.schema.dropTable('_sub_ubis');
+  };
+  
