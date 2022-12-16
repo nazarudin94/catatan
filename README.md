@@ -61,7 +61,7 @@ https://www.cherryservers.com/blog/how-to-install-and-setup-postgresql-server-on
 
   
   ## fk dari table di atas
-  exports.up = function (knex) {
+  `exports.up = function (knex) {
     return knex.schema.createTable('_sub_ubis', (table) => {
       table.increments();
       table.integer('ubis_id');
@@ -70,8 +70,8 @@ https://www.cherryservers.com/blog/how-to-install-and-setup-postgresql-server-on
       table.integer('status');
       table.string('updated_by');
       table.timestamps(true, true);
-   
-      table.foreign('ubis_id')
+    
+      table.foreign('ubis_id') 
         .withKeyName('ubis_fk')
         .references('id')
         .inTable('_ubis')
@@ -84,5 +84,10 @@ https://www.cherryservers.com/blog/how-to-install-and-setup-postgresql-server-on
   
   exports.down = function (knex) {
     return knex.schema.dropTable('_sub_ubis');
-  };
+  };`
+  
+  `table.foreign('ubis_id')` adalah kolom utuk fk 
+  `.withKeyName('ubis_fk')` adalah name fk bebas
+  `.references('id')` referance merupakan kolom maping yang ada di table mappingnya
+  `.inTable('_ubis')` in table ini merupakan table join
   
