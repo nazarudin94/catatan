@@ -77,11 +77,8 @@ https://www.cherryservers.com/blog/how-to-install-and-setup-postgresql-server-on
         .inTable('_ubis')
         .onUpdate('CASCADE')
         .onDelete('SET NULL');
-  
-     
     });
   };
-  
   exports.down = function (knex) {
     return knex.schema.dropTable('_sub_ubis');
   };`
